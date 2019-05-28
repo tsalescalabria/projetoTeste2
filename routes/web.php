@@ -19,3 +19,5 @@ Route::get('/', function () {
 Route::get('posts', function () {
     return view('index');
 });
+
+Route::get('/contato', ['uses'=>'ContatoControlle@index']);
